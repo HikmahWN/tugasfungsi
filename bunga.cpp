@@ -58,7 +58,10 @@ int main(){
 }
 
 
-
+//segar
+void bunga::muda(string segar){
+	cout << " Warnanya jika sedang mekar adalah  " <<segar<<endl;
+}
 //ukuran kelopak mekar
 void bunga::mekar(int ukuran){
 	cout << " Kelopak Ukurannya (cm) : "<<ukuran<< " !!"<<endl<<endl;
