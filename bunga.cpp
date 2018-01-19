@@ -3,5 +3,6 @@
 using namespace std;
 
 class bunga{
-	
+	public:
+		void layu(string warna);
 };
