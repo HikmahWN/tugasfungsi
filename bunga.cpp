@@ -42,10 +42,27 @@ int main(){
 	cout << "jumlah kelopak : " <<berbiji.jumlahkelopak<<endl<<endl;
 	
 	
+//mekar ukuran	
+	cout << "Untuk " <<berduri.jenisbunga<<endl;
+	cout << (berduri.jumlahkelopak);
+	berduri.mekar(3);
+
+	cout << "Untuk " <<bergerombol.jenisbunga<<endl;	
+	cout << (bergerombol.jumlahkelopak);
+	bergerombol.mekar(3);
+	
+	cout << "Untuk " <<berbiji.jenisbunga<<endl;	
+	cout << (berbiji.jumlahkelopak);
+	berbiji.mekar(2);	
 		
 }
 
 
+
+//ukuran kelopak mekar
+void bunga::mekar(int ukuran){
+	cout << " Kelopak Ukurannya (cm) : "<<ukuran<< " !!"<<endl<<endl;
+}
 //warna layu
 void bunga::layu(string warna){
 	cout << "Warnanya jika Layu adalah "<<warna<< " !!"<<endl;	
