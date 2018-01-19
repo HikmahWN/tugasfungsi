@@ -20,5 +20,10 @@ int main(){
 	bergerombol.jenisbunga = "Bunga Kertas";
 	berbiji.jenisbunga = "Bunga Matahari";
 
+	//ukuran
+	berduri.jumlahkelopak = 20;
+	bergerombol.jumlahkelopak = 5;
+	berbiji.jumlahkelopak = 25;	
+	
 		
 }
