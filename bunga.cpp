@@ -13,6 +13,7 @@ class bunga{
 };
 
 int main(){
+	system("color 70");
 	bunga berduri,bergerombol,berbiji;
 	
 	//warna
@@ -25,6 +26,8 @@ int main(){
 	bergerombol.jumlahkelopak = 5;
 	berbiji.jumlahkelopak = 25;	
 
+	cout<<"                          __________BUNGA_________"<<endl<<endl;
+	cout <<"                               NPM : 16631153"<<endl<<endl<<endl;
 	//layu warna
 	cout << (berduri.jenisbunga);
 	berduri.muda("Merah,Merah Muda dan Putih") ;
